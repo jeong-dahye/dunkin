@@ -1,0 +1,322 @@
+@charset "utf-8";
+
+/*mainSlider*/
+.mainSlider{
+    position:relative;
+}
+
+.sliderImg{
+    background:url(../images/main/mainSliderBg.png) no-repeat center center;
+    background-size:cover;
+    text-align:right;
+    padding:150px 0;
+    padding-right:80px;
+    overflow:hidden;
+}
+.sliderImg img{}
+
+.sliderTit{
+    color:#fff;
+    position:absolute;
+    left:50%;
+    margin-left:-600px;
+    bottom:380px;
+}
+.sliderTit h3{
+    margin-left:20px;
+    margin-bottom:-60px;
+    color:#fc6719;
+    font-family:'ghanachoco',serif;
+    font-size:60px;
+    font-weight:normal;
+}
+.sliderTit h2{
+    font-size:80px;
+    position:relative;
+    z-index:1
+}
+.sliderTit h4{
+    line-height:36px;
+    margin-top:80px;
+    margin-bottom:40px;
+    font-size:32px;
+    font-weight:400;
+}
+.sliderTit h4 span{display:block;}
+.sliderTit p{
+    font-family:'IBMPlexSans','NotoSans',sans-serif;
+    font-size:18px;
+    font-weight:200;
+}
+
+/*mainCon01*/
+.mainCon01{
+    background:#e6d6c3;
+    line-height:26px;
+    font-size:20px;
+}
+.mainCon01 span{display:block;}
+
+.con01Box01{
+    position:relative;
+    padding-bottom:120px;
+}
+
+.con01Box01Tit{}
+.con01Box01Tit h2{
+    padding-top:100px;
+    padding-bottom:50px;
+    color:#fc6719;
+    line-height:52px;
+    font-size:48px;
+}
+
+.con01Box01Img{
+    position:absolute;
+    z-index:1
+}
+.con01Box01Img img{}
+
+.con01Box01Img img:last-child{
+    position:absolute;
+    left:200px;
+    bottom:-80px;
+    z-index:1;
+}
+
+.con01Box01Txt{
+    float:right;
+    padding-right:150px;
+    overflow:hidden;
+    font-family:'NotoSans',sans-serif;
+}
+.con01Box01Txt h4{}
+.con01Box01Txt p{
+    margin-top:40px;
+    margin-bottom:60px;
+}
+.mainCon01 .con01Btn{
+}
+.mainCon01 .con01Btn a{
+    position:relative;
+    z-index:1;
+    background:#c59879;
+    display:block;
+    width:260px;
+    height:46px;
+    line-height:46px;
+    text-align:center;
+    box-sizing:border-box;
+    transition:background 0.6s,border 0.6s, color 0.6s;
+    color:#fff;
+}
+
+.mainCon01 .con01Btn:hover a{
+    background:#fff;
+    border:1px solid #c59879;
+    color:#c59879;
+}
+.con01Box02{
+    position:relative;
+    background:#fff url(../images/main/mainCon01Bg.png) no-repeat right bottom;
+    background-size:contain;
+    padding-top:240px;
+}
+
+.con01Box02Txt{
+    float:left;
+    padding-left:130px;
+    overflow:hidden;
+    text-align:right;
+}
+.con01Box02Txt h2{
+    margin:80px 0;
+    line-height:48px;
+    font-size:48px;
+}
+.con01Box02Txt .con01Btn{
+    display:inline-block;
+    padding-top:100px;
+}
+.con01Box02Img{
+    float:right;
+    padding-bottom:130px;
+}
+.con01Box02Img img:last-child{
+    position:absolute;
+    right:50%;
+    margin-right:-300px;
+    bottom:0;
+}
+
+/*mainCon02*/
+.mainCon02{
+    background:#fff url(../images/main/mainCon02Bg.png) no-repeat left bottom;
+    background-size:contain;
+    padding:200px 0;
+    position:relative;
+    font-family:'IBMPlexSans','NotoSans',sans-serif;
+}
+
+.con02Tit{
+    float:left;
+    width:20%;
+    transform:rotate(270deg);
+    position:absolute;
+    left:8%;
+    margin-top:-70px;
+}
+.con02Tit h2{
+    background:url(../images/main/txtDeco.png) no-repeat right center;
+    display:inline-block;
+    padding-right:16px;
+    color:#fc6719;
+    font-size:42px;
+}
+
+.con02List{
+    width:80%;
+    float:right;
+    margin:0 auto;
+}
+.con02List li{
+    background:#000;
+    position:relative;
+    width:480px;
+    height:640px;
+    float:left;
+    margin-left:20px;
+    text-align:center;
+    overflow:hidden;
+}
+
+.con02List .slick-track li:first-child{
+    margin-left:-20px;
+}
+
+.con02List li:nth-child(2n){
+    margin-top:20px;
+}
+
+.con02List li a{}
+.con02List li img{
+    width:100%;
+    opacity:0.6;
+    transition:opacity 0.8s;
+}
+.con02List li h4{
+    position:absolute;
+    top:80%;
+    display:inline-block;
+    font-size:30px;
+    color:#FFF;
+    transition:opacity 0.8s;
+}
+
+.con02List li:hover img{
+    opacity:1;
+}
+.con02List li:hover h4{
+    opacity:0;
+}
+/*mainCon03*/
+.mainCon03{
+    background:url(../images/main/manCon03Bg.png) no-repeat center center;
+    background-size:cover;
+    background-attachment:fixed;
+    color:#fff;
+    text-align:center;
+    padding:120px 0 160px;
+}
+.mainCon03 h4{
+    font-family:'IBMPlexSans','NotoSans',sans-serif;
+    font-size:22px;
+    font-weight:400;
+}
+.mainCon03 h4 span{
+    color:#fc6719;
+    font-weight:700;
+}
+.mainCon03 h3{
+    font-size:42px;
+    font-weight:400;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.mainCon03 p{
+    font-family:'IBMPlexSans','NotoSans',sans-serif;
+    font-weight:200;
+}
+
+/*mainCon04*/
+.mainCon04{
+    height:715px;
+    margin-top:100px;
+    margin-bottom:130px;
+    text-align:center;
+}
+
+.con04Tit{}
+.con04Tit h2{
+    display:inline-block;
+    margin-bottom:80px;
+    padding-right:16px;
+    font-size:42px;
+    background:url(../images/main/txtDeco.png) no-repeat right center;
+    color:#fc6719;
+}
+
+.con04List{}
+.con04List li{
+    width:380px;
+    height:380px;
+    margin-right:30px;
+    border-radius:300px;;
+    box-shadow:0px 0px 7px rgba(0,0,0,0.2);
+    float:left;
+}
+.con04List li:last-child{margin-right:0;}
+.con04List li img{
+    display:block;
+    margin:0 auto;
+    padding:30px 0 20px;
+}
+.con04List li h4{
+    padding-bottom:32px;
+    font-size:24px;
+}
+
+.plusBtn{
+    cursor:pointer;
+    display:block;
+    background:#fc6719 url(../images/main/pBtn.png) no-repeat center center;
+    width:66px;
+    height:66px;
+    display:block;
+    margin:0 auto;
+    margin-top:100px;
+    border-radius:50%;
+    text-indent:-9999px;
+}
+
+
+.con04ListBox{display:none;}
+.con04ListBox p{padding-bottom:40px;}
+.con04ListBox p span{display:block;}
+.con04ListBox a{
+    padding-right:12px;
+    color:#fc6719;
+    font-size:34px;
+    font-weight:700;
+    background:url(../images/main/txtDeco.png) no-repeat right center;
+}
+
+/*mainCon03*/
+.mainCon05{
+    width:100%;
+    height:400px;
+    background:url(../images/main/mainCon05Bg.png) no-repeat center center;
+    background-size:cover;
+    background-attachment:fixed;
+}
+

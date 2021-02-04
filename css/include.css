@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/*header*/
+#header{
+    text-align:center;
+    position:relative;
+    margin:30px 0;
+}
+#header li{
+    float:left;
+}
+#header li:last-child{margin-right:0}
+.logo{}
+.logo a{}
+.logo img{}
+
+.gnb{
+    display:inline-block;
+    margin-top:40px;
+    font-size:18px;
+}
+.gnb li{
+    margin-right:40px;
+}
+.gnb li a{}
+
+.util{
+    position:absolute;
+    bottom:0;
+    right:50%;
+    margin-right:-600px;
+    font-size:14px;
+}
+.util li{
+    margin-right:20px;
+}
+.util li a{color:#b2b2b2;}
+
+/*footer*/
+#footer{
+    background:#dfdfdf;
+    padding:60px 0;
+}
+.fMenu{
+}
+.fMenu li{
+    float:left;
+    margin-right:20px;
+}
+
+.fInfo{
+    float:left;
+    line-height:24px;
+    font-weight:200;
+}
+.fInfo p{
+    margin-top:30px;
+}
+.fInfo span{
+    display:block;
+}
+
+.fSns{
+    float:right;
+    padding-top:120px;
+    background:url(../images/common/fLogo.png) no-repeat right 56%;
+}
+.fSns a{
+    width:100%;
+    height:100%;
+}
+.fSns li{
+    float:left;
+    margin-left:10px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    border:1px solid #222;
+    border-radius:50%;
+    font-size:0;
+}
+
+.fSns01 a::before{
+    content:"";
+    display:block;
+    width:12px;
+    height:40px;
+    margin:0 auto;
+    margin-top:13px;
+    background:url(../images/common/icon_sns.png) no-repeat 0 0;
+}
+.fSns02 a::before{
+    content:"";
+    display:block;
+    width:8px;
+    height:15px;
+    margin:0 auto;
+    margin-top:12px;
+    background:url(../images/common/icon_sns.png) no-repeat -15px 0;
+}
+.fSns03 a::before{
+    content:"";
+    display:block;
+    width:19px;
+    height:21px;
+    margin:0 auto;
+    margin-top:9px;
+    background:url(../images/common/icon_sns.png) no-repeat -23px 0;
+}
+.fSns04 a::before{
+    content:"";
+    display:block;
+    width:26px;
+    height:16px;
+    margin:0 auto;
+    margin-top:12px;
+    background:url(../images/common/icon_sns.png) no-repeat -63px 0;
+}
+.fSns05 a::before{
+    content:"";
+    display:block;
+    width:8px;
+    height:15px;
+    margin:0 auto;
+    margin-top:12px;
+    background:url(../images/common/icon_sns.png) no-repeat -89px 0;
+}
+.fSns06 a::before{
+    content:"";
+    display:block;
+    width:15px;
+    height:15px;
+    margin:0 auto;
+    margin-top:12px;
+    background:url(../images/common/icon_sns.png) no-repeat -97px 0;
+}
